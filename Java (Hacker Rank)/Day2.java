@@ -16,7 +16,8 @@ import java.util.concurrent.*;
 import java.util.regex.*;
 
 public class Solution {
-    
+
+
 
     private static final Scanner scanner = new Scanner(System.in);
 
@@ -28,10 +29,10 @@ public class Solution {
                 System.out.println("Weird");
             }
             else if (N>=2 && N<=5){
-                System.err.println("Not wierd");
+                System.out.println("Not Weird");
             }
             else if (N>=6 && N<=20){
-                System.err.println("Weird");
+                System.out.println("Weird");
             }
             else {
                 System.out.println("Not Weird");
