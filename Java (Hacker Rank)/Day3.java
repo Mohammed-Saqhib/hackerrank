@@ -1,0 +1,26 @@
+/*
+ Problem: Java Stdin and Stdout II
+ - Input: int, double, String (each on its own line)
+ - Output: print them as:
+     String: <string>
+     Double: <double>
+     Int: <int>
+ - Note: call scan.nextLine() after nextInt()/nextDouble() to consume the newline before reading the String.
+*/
+
+import java.util.Scanner;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int i = scan.nextInt();
+        double d= scan.nextDouble();
+        scan.nextLine();
+        String s = scan.nextLine();
+        
+        System.out.println("String: " + s);
+        System.out.println("Double: " + d);
+        System.out.println("Int: " + i);
+    }
+}
