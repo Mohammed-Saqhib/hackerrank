@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+// Format strings left-justified in 15 characters and integers padded to 3 digits with leading zeros.
+
 public class Solution {
 
     public static void main(String[] args) {
